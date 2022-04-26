@@ -20,7 +20,7 @@
 <body>
  
 <div id="splash">
-	<div id="splash_text"></div>
+	<div id="splash_text">ただいまロード中</div>
 	<div class="loader_cover loader_cover-up"></div>
 	<div class="loader_cover loader_cover-down"></div>
 </div>
@@ -36,16 +36,16 @@
 </header>
 
 <main>
-    <section id="box1" class="box" data-section-name="Profile">
-        <div class="box-area">
+    <section id="box1" class="box" data-section-name="IMFORMATION">
+        <div class="box-area-centor">
             <div class="profile-area blurTrigger">
                 <h2>概要 <span>サイトの説明</span></h2>
                 <p>レイアウトを中心に学習を進めています</p>
                 <dl>
                     <dt>役割</dt>
-                        <dd>第一階層</dd>
-                        <dd>第2階層sawada</dd>
-                        <dd>第3階層kubo</dd>
+                        <dd>第１階層</dd>
+                        <dd>第２階層sawada</dd>
+                        <dd>第３階層kubo</dd>
                 </dl>
             </div>
         </div>

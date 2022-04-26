@@ -117,7 +117,7 @@ h2{
 
 @media screen and (max-width:768px) { 
 .profile-area{
-     margin:0;
+     margin:0 auto;
     } 
 }
 
@@ -248,3 +248,7 @@ small{
     -webkit-writing-mode: vertical-rl;
     writing-mode: vertical-rl;
 }
+
+.box-area-centor{
+  margin: 0 auto; 
+} 
