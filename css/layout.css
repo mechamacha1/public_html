@@ -251,4 +251,12 @@ small{
 
 .box-area{
   margin: 0 auto; 
-} 
+}
+
+.a_link-button{
+    display: inline-block;
+    border-style: solid white;
+    background: linear-gradient(to bottom, #FFC778, #FFF);
+    margin: 0 auto;
+    text-decoration: none;    
+}

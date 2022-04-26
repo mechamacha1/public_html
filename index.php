@@ -56,9 +56,11 @@
             <div class="profile-area blurTrigger">
             <h2>SAWADA　<span>ここの先のページに機能を追加していく</span></h2>
             <div style="text-align: center">
-            <p><img src= "img/sawada_1.jpg" width = "200" float = 0 auto></p>
+                <p><img src= "img/sawada_1.jpg" width = "200" float = 0 auto></p>
             </div>
-            <a href="http://toindeed.php.xdomain.jp/2/index.php">SAWADAの道</a>
+                        <div class="a_link-button">
+                        <a href="http://toindeed.php.xdomain.jp/2/index.php">SAWADAの道</a>
+                        </div>
             </div>
         </div>
     </section>

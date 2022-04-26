@@ -223,3 +223,22 @@ bar.animate(1.0, function () {//バーを描画する割合を指定します 1.
     });//=====ここまでプログレスバー表示
     
 });// ここまでページが読み込まれたらすぐに動かしたい場合の記述
+
+function fadeAnime(){
+	$('.fadeInTrigger').each(function(){ //fadeInTriggerというクラス名が
+		var elemPos = $(this).offset().top-50;//要素より、50px上の
+		var scroll = $(window).scrollTop();
+		var windowHeight = $(window).height();
+		if (scroll >= elemPos - windowHeight){
+		$(this).addClass('fadeIn');// 画面内に入ったらfadeInというクラス名を追記
+		}else{
+		$(this).removeClass('fadeIn');// 画面外に出たらfadeInというクラス名を外す
+		}
+		});
+
+	// ページが読み込まれたらすぐに動かしたい場合の記述
+	$(window).on('load', function(){
+		fadeAnime();/* アニメーション用の関数を呼ぶ*/
+	});// ここまでページが読み込まれたらすぐに動かしたい場合の記述
+
+}
