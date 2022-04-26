@@ -1,5 +1,5 @@
 <?php
-$dir_path = "image/";
+$dir_path = "img/";
 $count = 0;
 if (is_dir($dir_path))
 {

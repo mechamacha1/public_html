@@ -1,5 +1,5 @@
 <?php
-$dir = '/home/toindeed/toindeed.php.xdomain.jp/public_html/image/';
+$dir = '/home/toindeed/toindeed.php.xdomain.jp/public_html/img/';
 //$image_name = md5(uniqid(rand(), true));
 $image_name = date("Y-m-d H:i:s");
 $image_name .='.jpg';
