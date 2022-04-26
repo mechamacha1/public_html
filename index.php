@@ -36,8 +36,8 @@
 </header>
 
 <main>
-    <section id="box1" class="box" data-section-name="IMFORMATION">
-        <div class="box-area-centor">
+<section id="box1" class="box" data-section-name="IMFORMATION">
+        <div class="box-area">
             <div class="profile-area blurTrigger">
                 <h2>概要 <span>サイトの説明</span></h2>
                 <p>レイアウトを中心に学習を進めています</p>
@@ -50,6 +50,28 @@
             </div>
         </div>
     </section>
+
+    <section id="box2" class="box" data-section-name="SAWADA">
+        <div class="box-area">
+            <div class="profile-area blurTrigger">
+            <h2>SAWADA　<span>ここの先のページに機能を追加していく</span></h2>
+            <div style="text-align: center">
+            <p><img src= "img/sawada_1.jpg" width = "200" float = 0 auto></p>
+            </div>
+            <a href="http://toindeed.php.xdomain.jp/2/index.php">SAWADAの道</a>
+            </div>
+        </div>
+    </section>
+<!--
+    <section id="box2" class="box" data-secton-name="sawada">
+        <div class="box-area">
+            <h2 class="eachTextAnime">SAWADA</h2>
+            <a href="http://toindeed.php.xdomain.jp/2/index.php" class="gradient4 btn-view blurTrigger">SAWADAの道</a>
+        </div>
+        <div id="gallery-2" class="hide-area">
+        </div>
+    </section>
+-->
 </main>
 </body>
 <!--=============JS ===============--> 
