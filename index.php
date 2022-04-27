@@ -58,9 +58,11 @@
             <div style="text-align: center">
                 <p><img src= "img/sawada_1.jpg" width = "200" float = 0 auto></p>
             </div>
-                        <div class="a_link-button">
-                        <a href="http://toindeed.php.xdomain.jp/2/index.php">SAWADAの道</a>
-                        </div>
+                <div class="flex">
+                    <p>
+                        <a href="http://toindeed.php.xdomain.jp/2/index.php" class="a_link-button">SAWADAの道</a>
+                    </p>
+                </div>
             </div>
         </div>
     </section>

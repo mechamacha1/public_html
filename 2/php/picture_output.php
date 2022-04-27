@@ -1,5 +1,5 @@
 <?php
-$dir_path = "/home/toindeed/toindeed.php.xdomain.jp/public_html/img/";
+$dir_path = "img/";
 $count = 0;
 if (is_dir($dir_path))
 {
@@ -13,10 +13,9 @@ $ln_path = $ch_dir -> path . "/" .$file_name;
 if (@getimagesize($ln_path))
 { //画像かどうか？
 $count = $count + 1;
-echo "<a href = \"imgview.php?d=" .urlencode(mb_convert_encoding($ln_path, "UTF-8")). "\" target = \"_blank\" >";
+echo "<div class=\"item\"><a href = \"imgview.php?d=" .urlencode(mb_convert_encoding($ln_path, "UTF-8")). "\" target = \"_blank\" >";
 //echo "<div align=\"left\">\"$file_name\"<img src = \"".$ln_path. "\" width=\"400\"></div></a> ";
 echo "
-<div class=\"item\">
 <table>
 <thead>
 <tr>
@@ -26,7 +25,7 @@ echo "
 <tbody>
 <tr>
 <td>
-<img src = \"".$ln_path. "\" width=\"400\">
+<img src = \"".$ln_path. "\" width=\"200\">
 </td>
 </tr>
 </tbody>

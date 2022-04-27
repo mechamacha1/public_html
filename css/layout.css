@@ -257,6 +257,12 @@ small{
     display: inline-block;
     border-style: solid white;
     background: linear-gradient(to bottom, #FFC778, #FFF);
-    margin: 0 auto;
+    background-position: center;
     text-decoration: none;    
 }
+
+.flex{
+    padding:50px 0;
+    display:flex;
+    justify-content:center;
+  }
