@@ -21,8 +21,8 @@
  
 <div id="splash">
 	<div id="splash_text">ただいまロード中</div>
-	<div class="loader_cover loader_cover-up"></div>
-	<div class="loader_cover loader_cover-down"></div>
+	<div class="loader_cover loader_cover-up"><img src = "img/bg_01.jpg"></div>
+	<div class="loader_cover loader_cover-down"><img src = "img/bg_01.jpg"></div>
 </div>
 
 <header id="header">
@@ -36,7 +36,7 @@
 </header>
 
 <main>
-<section id="box1" class="box" data-section-name="IMFORMATION">
+    <section id="box1" class="box" data-section-name="IMFORMATION">
         <div class="box-area">
             <div class="profile-area blurTrigger">
                 <h2>概要 <span>サイトの説明</span></h2>
@@ -66,16 +66,20 @@
             </div>
         </div>
     </section>
-<!--
-    <section id="box2" class="box" data-secton-name="sawada">
+
+    <section id="box3" class="box" data-section-name="Commin soon">
         <div class="box-area">
-            <h2 class="eachTextAnime">SAWADA</h2>
-            <a href="http://toindeed.php.xdomain.jp/2/index.php" class="gradient4 btn-view blurTrigger">SAWADAの道</a>
-        </div>
-        <div id="gallery-2" class="hide-area">
+            <div class="profile-area blurTrigger">
+                <h2><span>Commig soon</span></h2>
+                <p></p>
+                <div class="flex">
+                    <p>
+                        <a href="http://toindeed.php.xdomain.jp/practice/index.php" class="a_link-button">練習</a>
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
--->
 </main>
 </body>
 <!--=============JS ===============--> 

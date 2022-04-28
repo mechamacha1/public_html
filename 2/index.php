@@ -3,9 +3,6 @@
 <head>
     <title>SAWADA</title>
     <style>
-.float-left {
-  float: left;
-}
 .menu{
   display: flex;
   flex-direction: row;
@@ -25,9 +22,9 @@
 <body>
     <p>ここに追加する</p>
     <div class="menu">
-    <?php
-    require("/home/toindeed/toindeed.php.xdomain.jp/public_html/2/php/picture_output.php");
-    ?>
+        <?php
+            require("/home/toindeed/toindeed.php.xdomain.jp/public_html/2/php/picture_output.php");
+        ?>
     </div>
 </body>
 </html>
