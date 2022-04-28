@@ -31,6 +31,17 @@
   </span>
 </div>
 
+<div class="openbtn1"><span></span><span></span><span></span></div>
+<nav id="g-nav">
+<div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
+<ul>
+<li><a href="#area-1">Area1</a></li>  
+<li><a href="#area-2">Area2</a></li>  
+<li><a href="#area-3">Area3</a></li>  
+<li><a href="#area-4">Area4</a></li>  
+</ul>
+</div>
+</nav>
 
 
   </header>
